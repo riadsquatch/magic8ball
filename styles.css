@@ -1,0 +1,15 @@
+.ball {
+  width: 450px; height: 450px; border-radius: 50%;
+  background: radial-gradient(circle at 30% 25%, #555, #111 60%, #000);
+  display: grid; place-items: center;
+}
+.window {
+  width: 150px; height: 150px; border-radius: 50%;
+  background: radial-gradient(circle, #1a237e, #0a0f3d);
+  display: grid; place-items: center; color: #fff;
+}
+.ball.shaking { animation: shake 0.5s; }
+@keyframes shake {
+  25% { transform: translateX(-12px) rotate(-6deg); }
+  75% { transform: translateX(12px) rotate(6deg); }
+}
