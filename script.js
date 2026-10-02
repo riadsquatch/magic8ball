@@ -1,3 +1,5 @@
+const ball = document.querySelector(".ball");
+
 const ANSWERS = [
     "It is certain",
     "It is decidedly so",
@@ -18,7 +20,8 @@ const ANSWERS = [
     "My reply is no",
     "My sources say no",
     "Outlook not so good",
-    "Very doubtful"
+    "Very doubtful",
+    "Eat Shit and Die"
 ];
 
 function shakeMagic8Ball() {
@@ -26,5 +29,7 @@ function shakeMagic8Ball() {
     return ANSWERS[index];
 }
 
-console.log(shakeMagic8Ball());
-document.getElementById("response").innerText = shakeMagic8Ball();
+ball.addEventListener("click", () => {
+    const response = shakeMagic8Ball();
+    document.querySelector(".response").innerText = response;
+});
