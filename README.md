@@ -1,17 +1,17 @@
 # magic8ball
 
-To Do:
+To Do:8/13/23
 
-Figure out HTML for skeleton for 8ball<br>
-Create functionality for magic 8 ball with a multitude of responses<br>
-Create a ui for said 8 ball as well as animations using css<br>
-See how AI can help me build and learn said magic 8ball<br>
-use javascript to generate different responses in the placeholder<br>
-use ease in css to bring the result in <br>
+Figure out HTML for skeleton for 8ball<br> done 
+Create functionality for magic 8 ball with a multitude of responses<br> done
+Create a ui for the ball using css<br> 
+See how AI can help me build and learn said magic 8ball<br> i didn't need ai to do this
+use javascript to generate different responses in the placeholder<br> very simple
 
-You got this tomorrow for real for real
+To do: 10/2/26
+Make animations look cute
 
-Fuck i need a commit!
 
-8/13/23
+damn it took me 3 years to do about an hour worth of code.
+10/2/26
 
